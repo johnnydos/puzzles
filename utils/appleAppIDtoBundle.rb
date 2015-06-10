@@ -13,7 +13,7 @@ require'json'
 
 ### CONFIG ###
 if ARGV.length < 1
-	print"app id: "
+	print "app id: "
 	appId = gets.chomp!
 else
 	appId = ARGV[0]
